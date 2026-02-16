@@ -1,7 +1,7 @@
 process.env.TF_CPP_MIN_LOG_LEVEL = '2'
 
 const use = require("@tensorflow-models/universal-sentence-encoder")
-const tf = require("@tensorflow/tfjs-node")
+const tf = require("@tensorflow/tfjs")
 
 let model = null
 
