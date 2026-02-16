@@ -14,9 +14,6 @@ const PORT = process.env.PORT || 3001
 // Connect to MongoDB
 connectDB()
 
-const { loadModel } = require("./services/nlpService")
-loadModel().catch((err) => console.error("Failed to preload NLP model:", err))
-
 // Middleware
 app.use(
   cors({
